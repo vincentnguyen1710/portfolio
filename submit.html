@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Submit project</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous" />
+  <link rel="stylesheet" href="scss/custom.css" />
+  <link rel="stylesheet" href="transitions.css" />
+  <script type="module" src="swup.js"></script>
+  <!-- Hotjar Tracking Code for Portfolio -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj =
+        h.hj ||
+        function () {
+          (h.hj.q = h.hj.q || []).push(arguments);
+        };
+      h._hjSettings = { hjid: 3882261, hjsv: 6 };
+      a = o.getElementsByTagName("head")[0];
+      r = o.createElement("script");
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+  </script>
+</head>
+
+<body>
+  <main>
+    <!-- header-->
+    <div id="swup" class="transition-main">
+      <div class="scroll-watcher"></div>
+
+      <header class="menu">
+        <div class="container-xxl">
+          <!-- header-->
+          <nav class="navbar navbar-expand-lg d-flex justify-content-between py-8">
+            <a class="navbar-brand logo" href="index.html">
+              <img src="img/logo.svg" alt="Vincent Nguyen" class="d-inline-block align-text-top" />
+            </a>
+
+            <button class="navbar-toggler p-8 fs-6" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+              aria-label="Toggle navigation">
+              Menu
+            </button>
+
+            <div class="collapse navbar-collapse mt-16 my-16 my-lg-0 py-16 py-lg-0" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-md-32 ms-sm-0">
+                <li class="nav-item">
+                  <a class="button button-next mx-16 mb-16 mb-md-0 pb-md-0 nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item my-16 my-lg-0">
+                  <a class="button button-next mx-16 nav-link" href="work.html">Works</a>
+                </li>
+                <li class="nav-item dropdown mx-16 my-16 my-lg-0">
+                  <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item p-8" href="design-system.html">Design system</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8" href="q-sign.html">Q-sign</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8 active" href="submit.html">Submit</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8" href="tanhoangdesign.html">Tan Hoang design</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="mx-16 nav-link my-16 my-lg-0" href="about.html">About</a>
+                </li>
+              </ul>
+              <hr />
+              <div class="px-lg-0 my-16 my-lg-0 navbar-collapse justify-content-end">
+                <a class="mx-16 d-flex my-16 my-lg-0" target="_blank"
+                  href="https://www.behance.net/vincentnguyen1710"><svg class="behance"
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <title>Vincent's behance</title>
+                    <g>
+                      <path
+                        d="M9.68586,11.19554c0,0,2.27112-0.16872,2.27112-2.83211c0-2.66344-1.85819-3.96321-4.2119-3.96321H3.41265 H3.28537H0v14.88431h3.28537h0.12728h4.33242c0,0,4.72808,0.14903,4.72808-4.39321 C12.47315,14.89132,12.67959,11.19554,9.68586,11.19554z M3.41265,7.04557h3.77494h0.55749c0,0,1.05295,0,1.05295,1.54851 s-0.61941,1.77304-1.32137,1.77304H3.41265V7.04557z M7.54539,16.63918H3.41265v-3.97771h4.33242 c0,0,1.56913-0.02061,1.56913,2.04398C9.3142,16.42691,8.16648,16.62191,7.54539,16.63918z">
+                      </path>
+                      <path
+                        d="M18.77907,8.1871c-5.72379,0-5.71862,5.71865-5.71862,5.71865s-0.3928,5.68981,5.71878,5.68981 c0,0,5.09309,0.2909,5.09309-3.95808h-2.61935c0,0,0.08726,1.60046-2.38647,1.60046c0,0-2.61939,0.17519-2.61939-2.58985h7.71248 C23.95959,14.64808,24.80338,8.1871,18.77907,8.1871z M21.10728,12.66146h-4.88934c0,0,0.32016-2.29435,2.61935-2.29435 C21.13652,10.36712,21.10728,12.66146,21.10728,12.66146z">
+                      </path>
+                      <rect x="16" y="5" width="6" height="2"></rect>
+                    </g>
+                  </svg></a>
+                <a class="mx-16 d-flex my-16 my-lg-0" target="_blank"
+                  href="https://www.linkedin.com/in/vincent-nguyen-0248a299/">
+                  <svg class="linkedin" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <title>Vincent's linkedin</title>
+
+                    <path
+                      d="M23,0H1C0.4,0,0,0.4,0,1v22c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V1C24,0.4,23.6,0,23,0z M7.1,20.5H3.6V9h3.6 V20.5z M5.3,7.4c-1.1,0-2.1-0.9-2.1-2.1c0-1.1,0.9-2.1,2.1-2.1c1.1,0,2.1,0.9,2.1,2.1C7.4,6.5,6.5,7.4,5.3,7.4z M20.5,20.5h-3.6 v-5.6c0-1.3,0-3-1.8-3c-1.9,0-2.1,1.4-2.1,2.9v5.7H9.4V9h3.4v1.6h0c0.5-0.9,1.6-1.8,3.4-1.8c3.6,0,4.3,2.4,4.3,5.5V20.5z">
+                    </path>
+                  </svg></a>
+                <div class="navbar-nav mt-lg-0 mx-16 my-16 my-lg-0 d-inline-flex">
+                  <a target="_blank" class="btn secondary-button"
+                    href="https://drive.google.com/file/d/1fr3tEcWJPfj9YjsnXxYR5Sfix83xdKO5/view?usp=sharing"
+                    role="button">Download my CV</a>
+                </div>
+                <div class="navbar-nav mx-16 my-16 my-lg-0">
+                  <a class="fw-bold" href="mailto: a38986640@gmail.com">Email me</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- header-->
+      <!-- Main body-->
+      <header class="d-flex hero-section">
+        <div class="row">
+          <div class="col-lg-7 col-sm-12 align-self-center p-32 ps-xl-180 ps-md-80 py-80">
+            <h1 class="text-strong">Submit</h1>
+            <h4 class="text-weak mt-16">
+              An HR solution replacing Excel and messenger for streamlined
+              processes
+            </h4>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <img src="img/submit-hero.webp" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <div class="container-xxl mt-80">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="work.html">Work</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Submit</li>
+          </ol>
+        </nav>
+      </div>
+
+      <article class="container-xxl mt-80">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h3>Our objectives</h3>
+
+            <ul class="mt-24">
+              <li>To provide a tool for easier chatting.</li>
+              <li>To offer a solution for renewing contracts.</li>
+              <li>
+                To facilitate the process of requesting temporary staff
+                orders.
+              </li>
+            </ul>
+          </div>
+          <div class="mt-24 mt-sm-0 col-md-5 offset-md-1 col-sm-12">
+            <h3 class="mt-40 mt-lg-0">Project info</h3>
+            <h6 class="text-weak mt-24 mb-8">MY ROLE AND DURATION</h6>
+            <ul>
+              <li>UI/UX designer</li>
+              <li>Develop email template</li>
+              <li>Team size: 1 designer, 1 project manager, 5 developers</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- Current situation-->
+
+      <div class="container-xxl">
+        <div class="prompt-note-blue p-40 mt-48 rounded-4">
+          <h3 class="text-strong">Result</h3>
+          <ul class="mt-16">
+            <li>
+              My team and I successfully delivered version 1 to the client.
+            </li>
+            <li>
+              The development team solely maintained and further developed
+              version 2. The designer was not involved beyond version 1.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- slideshow-->
+      <div class="tech-slideshow mt-80 d-none d-sm-block">
+        <div class="mover-1" style="background-image: url('img/submit-slideshow.webp')"></div>
+      </div>
+
+      <!-- Prototype-->
+      <section class="prototype border-1 bg-blue-20 py-lg-80 mt-lg-80 py-80 mt-80">
+        <div class="container-xxl">
+          <div class="col-md-6 col-sm-12 mx-auto">
+            <h2 class="text-strong text-center">Prototype</h2>
+            <h6 class="text-weak mt-16 text-center">
+              Help users to imagine the design
+            </h6>
+            <p class="mt-16 text-center">
+              I constructed this prototype using Adobe XD to facilitate
+              stakeholder understanding of how Submit operates. It also
+              enables clients to provide feedback more easily.
+            </p>
+          </div>
+          <p class="d-block d-sm-none bg-gray-6 px-16 py-32 p-md-40 mt-24 rounded-2 fs-14">
+            Please switch to larger screen for viewing prototype
+          </p>
+        </div>
+
+        <div class="container-xxl">
+          <div class="text-center">
+            <div class="position-relative iframe-container-xxl d-none d-sm-block">
+              <iframe class="desktop" src="https://xd.adobe.com/embed/ea1b46c3-2887-46ef-91bd-1ffbe683ec7a-bf48/"
+                width="1024" height="638" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+              <p class="text-center fs-14 text-weak fst-italic mt-40">
+                Click on the desktop screen to interact with the prototype
+              </p>
+            </div>
+            <a class="btn btn-primary primary-lg-button mt-32 mt-md-0" target="_blank"
+              href="https://xd.adobe.com/view/ea1b46c3-2887-46ef-91bd-1ffbe683ec7a-bf48/grid" role="button">View full
+              prototype</a>
+          </div>
+        </div>
+      </section>
+      <!-- background-->
+      <div class="container-xxl">
+        <h2 class="mt-80 text-center mb-24">Background</h2>
+        <div class="row mt-48">
+          <div class="col-lg-6 col-xs-12 align-self-center">
+            <article>
+              <h3>Main user</h3>
+              <p class="mt-16">
+                There are 2 main kinds of users:<b> Client</b> and
+                <b>Agency</b>
+              </p>
+              <ol>
+                <li>
+                  <b>Client:</b> HR and Manager in a company who needs temp
+                  staff
+                  <ul>
+                    <li>
+                      Manager:  Oversees the temporary staff and interacts
+                      with internal HR
+                    </li>
+                    <li>HR: Liaises with the agency for next steps.</li>
+                  </ul>
+                </li>
+                <li>
+                  <b>Agency:</b> Seeks suitable candidates for the client
+                </li>
+              </ol>
+            </article>
+          </div>
+          <div class="col-lg-6 col-xs-12 mt-4 mt-sm-0">
+            <img src="img/main-user.webp" alt="Main User" />
+          </div>
+        </div>
+
+        <div class="row mt-48 flex-column-reverse flex-lg-row">
+          <div class="col-lg-6 col-xs-12">
+            <img src="img/main-problem.webp" alt="Main User" />
+          </div>
+          <div class="col-lg-6 col-xs-12 align-self-center">
+            <article class="mt-64 mt-sm-0">
+              <h3 class="mb-16 mt-sm-0">Main problem</h3>
+              <ul>
+                <li>
+                  Complexity arises from using Email, Excel, and telephone for
+                  communication between Clients and Agency.
+                </li>
+                <li>
+                  Difficulty in searching for the status of temporary staff.
+                </li>
+                <li>
+                  Tasks consume a significant amount of time to complete.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </div>
+      <!-- Step of design-->
+      <div class="container-xxl">
+        <h3 class="mt-80">Conflict happened​</h3>
+        <div class="row mt-24">
+          <div class="col-md-4 col-xs-12">
+            <article class="p-24 h-100 rounded-3 border-1">
+              <p class="fw-bold circle-number p-4 border-1 text-strong">1</p>
+              <p>
+                Before finalizing the user flow, I collaborated with a
+                communicator in Japan to gather insights and outline the
+                product.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-4 col-xs-12 mt-32 mt-md-0">
+            <article class="p-24 h-100 rounded-3 border-1">
+              <p class="fw-bold circle-number p-4 border-1 text-strong">2</p>
+              <p>
+                He provided only wireframes and instructed me to continue
+                development, causing confusion among me and other team
+                members.
+              </p>
+            </article>
+          </div>
+          <div class="col-md-4 col-xs-12 mt-32 mt-md-0">
+            <article class="p-24 h-100 border-1">
+              <p class="fw-bold circle-number p-4 border-1 text-strong">3</p>
+              <p>
+                Consequently, I had to create a user flow that interconnected
+                all features, ensuring no random screens led to dead ends.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- User flow-->
+      <section class="border-1 bg-blue-20 py-lg-80 mt-lg-80 py-80 mt-80">
+        <div class="container-xxl">
+          <h2>User flow is a vision</h2>
+          <p class="mt-24">I drew user flow because:</p>
+          <ul>
+            <li>
+              It assists product owners and stakeholders in understanding all
+              the steps that users would take in Q-Sign.
+            </li>
+            <li>
+              It aids designers in connecting all features, ensuring that all
+              functions are linked and follow through from start to end.
+            </li>
+          </ul>
+          <div class="row mt-80">
+            <div class="col-md-7 col-xs-12">
+              <img src="img/submit-flow1.svg" alt="" />
+            </div>
+            <div class="col-md-5 col-xs-12 mt-5 mt-sm-0">
+              <h3>Super admin</h3>
+              <ul class="mt-24">
+                <li>
+                  <b>Admin:</b>  Administers and grants privileges to all
+                  types of accounts.
+                </li>
+                <li><b>Manager:</b> request temporary staff from HR</li>
+                <li>
+                  <b>Human Resource:</b> receives requests from managers, then
+                  contacts the agency to fulfill them.
+                </li>
+                <li>
+                  <b>Staff agency:</b> Sources candidates for job placements
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row mt-80">
+            <div class="col-md-7 col-xs-12">
+              <img src="img/submit-flow2.svg" alt="" />
+            </div>
+            <div class="col-md-5 col-xs-12 mt-64 mt-sm-0">
+              <h3>HR has three main tasks:</h3>
+              <ul class="mt-24">
+                <li>
+                  <b>Create a chat room</b> with internal and external members
+                </li>
+                <li>Create <b>request candidate</b> to Agency</li>
+                <li>
+                  Create <b>renewal contracts</b> for existing candidates
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row mt-80">
+            <div class="col-md-7 col-xs-12">
+              <img src="img/submit-flow3.svg" alt="" />
+            </div>
+            <div class="col-md-5 col-xs-12 mt-5 mt-sm-0">
+              <h3>Upon receiving the request from HR:</h3>
+              <ul class="mt-24">
+                <li>
+                  <b>Staff agencies join the HR-created chat room</b> upon
+                  receiving the contract renewal request.
+                </li>
+                <li>
+                  <b>Facilitate the event</b> creation and add the candidate
+                  to the room. Acting as intermediaries, the agency
+                  <b>connects the candidate with HR</b>, enabling the contract
+                  extension to be signed directly between them.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row mt-80">
+            <div class="col-md-7 col-xs-12">
+              <img src="img/submit-flow4.svg" alt="" />
+            </div>
+            <div class="col-md-5 col-xs-12 mt-5 mt-sm-0">
+              <h3>Manager</h3>
+              <p class="mt-24">
+                The manager, being part of the same company as HR, is tasked
+                with
+                <b>requesting candidates</b> for staffing needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Wireframe-->
+      <div class="container-xxl">
+        <h2 class="mt-80">Wireframe</h2>
+        <p class="mt-24 col-lg-8 col-sm-12">
+          Based on the user flow I created earlier, the JP communicator and I
+          found ourselves aligned. We collaborated effectively and seamlessly
+          generated the wireframes together.
+        </p>
+        <img class="mt-48 col-12 d-none d-lg-block mt-5" src="img/true-wireframe-submit.webp" alt="" />
+      </div>
+      <!-- style guide-->
+      <section class="mt-80 py-80 border-1 bg-blue-20">
+        <div class="container-xxl">
+          <div class="text-center">
+            <h2 class="text-strong">Style guide</h2>
+            <h6 class="mt-8 text-weak">Better communication</h6>
+            <p class="mt-24 col-md-8 col-sm-12 mx-auto">
+              A style guide aids in designer-to-developer handoff by
+              facilitating smooth communication between the two parties.
+            </p>
+          </div>
+        </div>
+        <div class="container-xxl">
+          <div class="row mt-80">
+            <div class="col-lg-5 col-xs-12">
+              <img src="img/submit-typo.webp" alt="" />
+            </div>
+            <div class="col-lg-7 col-xs-12">
+              <img src="img/submit-colors.webp" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Takeaway-->
+
+      <div class="container-xxl">
+        <div class="prompt-note-blue p-40 mt-80 rounded-4">
+          <h3 class="text-strong mt-24">Key Takeaway</h3>
+          <ul class="mt-24 col-md-8 col-sm-12">
+            <li>
+              <b> Direct communication</b> between the product team and the
+              client had been established, as working with stakeholders on the
+              Japan side proved to be <b>unresponsive</b> and
+              <b>lacking transparency.</b>
+            </li>
+            <li>
+              Feedback had been gathered after the release of version 1.
+              <b>Without testing and iteration</b>, there was no opportunity
+              for UX improvement.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Next project Bulk Box-->
+      <section class="mt-80 py-40 py-md-80 border-1 bg-blue-20">
+        <div class="container-xxl">
+          <div class="row">
+            <div class="col-sm-12 col-lg-6">
+              <img class="img-fluid rounded-4" src="img/tanhoangdesign_work.svg" alt="" />
+            </div>
+            <div class="col-lg-6 col-xs-12 border-1 bg-white rounded-4 position-relative" style="overflow: hidden;">
+              <div class="px-16 py-32 p-md-40 mt-16 mt-lg-0 h-100  ">
+                <a href="tanhoangdesign.html">
+                  <h5 class="text-strong">
+                    Next project
+                    <img class="pr-16" width="24px" src="img/arrow.svg" alt="" />
+                  </h5>
+                </a>
+
+                <h2 class="mt-md-80 mt-40 text-strong">Tan Hoang Design</h2>
+                <p class="mt-24">
+                  This is a branding project for my freelance website. I am reshaping the brand, defining colors,
+                  typography, imagery, and
+                  adding more pages.
+                </p>
+                <div class="position-absolute " style="width: 37rem;height: 37rem;   border-radius: 372px;               
+                                                            opacity: 0.05;
+                                background: #222221;left: -186px;
+                                                            bottom: -185.877px;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- main body-->
+      <!-- footer-->
+      <footer class="py-40 box-raised">
+        <div class="container-xxl d-flex flex-sm-row flex-column justify-content-between">
+          <div class="row">
+            <p class="uppercase-small mb-0">Project</p>
+            <ul class="nav ms-16 mt-16">
+              <li class="nav-item">
+                <a class="nav-link text-weak me-16" aria-current="page" href="design-system.html">Design system</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-weak me-16" aria-current="page" href="q-sign.html">Q-sign</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-weak mx-16" href="submit.html">Submit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-weak mx-16" href="bulkbox.html">Bulk Box</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-24 mt-sm-0">
+            <p class="uppercase-small mb-8">Contact</p>
+
+            <a class="link-offset-2 text-weak link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="mailto: a38986640@gmail.com">Send me an email</a>
+          </div>
+        </div>
+
+        <hr class="my-24" />
+
+        <div class="container-xxl mt-40 mt-lg-0 d-flex flex-sm-row flex-column justify-content-between">
+          <p class="text-weak">
+            <img class="align-middle" src="img/blue-circle.svg" alt="decoration" />
+            Based in Toronto, Canada
+          </p>
+
+          <p class="text-weak">
+            <img class="align-middle" src="img/yellow-rec.svg" alt="decoration" />
+            Freelance projects:
+            <a target="_blank"
+              class="text-weak link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="https://tanhoangdesign.com">https://tanhoangdesign.com</a>
+          </p>
+        </div>
+      </footer>
+      <!-- footer-->
+    </div>
+    <!-- container-xxl-->
+  </main>
+  <script src="bootstrap.bundle.min.js"></script>
+
+  <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+</body>
+
+</html>

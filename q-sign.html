@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Q-sign project</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="scss/custom.css" />
+  <link rel="stylesheet" href="transitions.css" />
+  <script type="module" src="swup.js"></script>
+  <!-- Hotjar Tracking Code for Portfolio -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj =
+        h.hj ||
+        function () {
+          (h.hj.q = h.hj.q || []).push(arguments);
+        };
+      h._hjSettings = { hjid: 3882261, hjsv: 6 };
+      a = o.getElementsByTagName("head")[0];
+      r = o.createElement("script");
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+  </script>
+</head>
+
+<body>
+  <!-- header-->
+  <main>
+    <div id="swup" class="transition-main">
+      <div class="scroll-watcher"></div>
+
+      <header class="menu">
+        <div class="container-xxl">
+          <!-- header-->
+          <nav class="navbar navbar-expand-lg d-flex justify-content-between py-8">
+            <a class="navbar-brand logo" href="index.html">
+              <img src="img/logo.svg" alt="Vincent Nguyen" class="d-inline-block align-text-top" />
+            </a>
+
+            <button class="navbar-toggler p-8 fs-6" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+              aria-label="Toggle navigation">
+              Menu
+            </button>
+
+            <div class="collapse navbar-collapse mt-16 my-16 my-lg-0 py-16 py-lg-0" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-md-32 ms-sm-0">
+                <li class="nav-item">
+                  <a class="button button-next mx-16 mb-16 mb-md-0 pb-md-0 nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item my-16 my-lg-0">
+                  <a class="button button-next mx-16 nav-link" href="work.html">Works</a>
+                </li>
+                <li class="nav-item dropdown mx-16 my-16 my-lg-0">
+                  <a class="dropdown-toggle nav-link active" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Projects
+                  </a>
+                  <ul class="dropdown-menu mt-8">
+                    <li>
+                      <a class="dropdown-item p-8" href="design-system.html">Design system</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8 active" href="q-sign.html">Q-sign</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8" href="submit.html">Submit</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item p-8" href="tanhoangdesign.html">Tan Hoang design</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="mx-16 nav-link my-16 my-lg-0" href="about.html">About</a>
+                </li>
+              </ul>
+              <hr />
+              <div class="px-lg-0 my-16 my-lg-0 navbar-collapse justify-content-end">
+                <a class="mx-16 d-flex my-16 my-lg-0" target="_blank"
+                  href="https://www.behance.net/vincentnguyen1710"><svg class="behance"
+                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <title>Vincent's behance</title>
+                    <g>
+                      <path
+                        d="M9.68586,11.19554c0,0,2.27112-0.16872,2.27112-2.83211c0-2.66344-1.85819-3.96321-4.2119-3.96321H3.41265 H3.28537H0v14.88431h3.28537h0.12728h4.33242c0,0,4.72808,0.14903,4.72808-4.39321 C12.47315,14.89132,12.67959,11.19554,9.68586,11.19554z M3.41265,7.04557h3.77494h0.55749c0,0,1.05295,0,1.05295,1.54851 s-0.61941,1.77304-1.32137,1.77304H3.41265V7.04557z M7.54539,16.63918H3.41265v-3.97771h4.33242 c0,0,1.56913-0.02061,1.56913,2.04398C9.3142,16.42691,8.16648,16.62191,7.54539,16.63918z">
+                      </path>
+                      <path
+                        d="M18.77907,8.1871c-5.72379,0-5.71862,5.71865-5.71862,5.71865s-0.3928,5.68981,5.71878,5.68981 c0,0,5.09309,0.2909,5.09309-3.95808h-2.61935c0,0,0.08726,1.60046-2.38647,1.60046c0,0-2.61939,0.17519-2.61939-2.58985h7.71248 C23.95959,14.64808,24.80338,8.1871,18.77907,8.1871z M21.10728,12.66146h-4.88934c0,0,0.32016-2.29435,2.61935-2.29435 C21.13652,10.36712,21.10728,12.66146,21.10728,12.66146z">
+                      </path>
+                      <rect x="16" y="5" width="6" height="2"></rect>
+                    </g>
+                  </svg>
+                </a>
+                <a class="mx-16 d-flex my-16 my-lg-0" target="_blank"
+                  href="https://www.linkedin.com/in/vincent-nguyen-0248a299/">
+                  <svg class="linkedin" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <title>Vincent's linkedin</title>
+
+                    <path
+                      d="M23,0H1C0.4,0,0,0.4,0,1v22c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V1C24,0.4,23.6,0,23,0z M7.1,20.5H3.6V9h3.6 V20.5z M5.3,7.4c-1.1,0-2.1-0.9-2.1-2.1c0-1.1,0.9-2.1,2.1-2.1c1.1,0,2.1,0.9,2.1,2.1C7.4,6.5,6.5,7.4,5.3,7.4z M20.5,20.5h-3.6 v-5.6c0-1.3,0-3-1.8-3c-1.9,0-2.1,1.4-2.1,2.9v5.7H9.4V9h3.4v1.6h0c0.5-0.9,1.6-1.8,3.4-1.8c3.6,0,4.3,2.4,4.3,5.5V20.5z">
+                    </path>
+                  </svg></a>
+                <div class="navbar-nav mt-lg-0 mx-16 my-16 my-lg-0 d-inline-flex">
+                  <a target="_blank" class="btn secondary-button"
+                    href="https://drive.google.com/file/d/1fr3tEcWJPfj9YjsnXxYR5Sfix83xdKO5/view?usp=sharing"
+                    role="button">Download my CV</a>
+                </div>
+                <div class="navbar-nav mx-16 my-16 my-lg-0">
+                  <a class="fw-bold" href="mailto: a38986640@gmail.com">Email me</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- header-->
+      <!-- Main body-->
+      <header class="d-flex hero-section">
+        <div class="row">
+          <div class="col-lg-7 col-sm-12 align-self-center p-32 ps-xl-180 ps-md-80 py-80">
+            <h1 class="text-strong ">Q-Sign</h1>
+            <h4 class="text-weak mt-16">
+              Q-sign: A digital solution that transform the traditional signature
+            </h4>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <img src="img/q-sign-hero.webp" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <div class="container-xxl mt-80">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="work.html">Work</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Q-sign</li>
+          </ol>
+        </nav>
+      </div>
+
+      <article class="my-80 container-xxl d-md-block d-none">
+        <h3>How the Q-sign application was inspired by</h3>
+        <figure class="mt-40">
+          <img src="img/storyboard_qsign.webp" alt="Q-Sign storyboard">
+        </figure>
+      </article>
+
+      <article class="container-xxl mt-64">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <h3>Q-sign’s objectives</h3>
+            <p class="mt-16">
+              When building Q-Sign, our aim is to revolutionize the
+              traditional method of signing documents, particularly in
+              contract signings. Here are the main features
+            </p>
+            <ul>
+              <li>Compose or upload documents with e-signature capability</li>
+              <li>Address booking functionality</li>
+            </ul>
+          </div>
+          <div class="mt-16 mt-sm-0 col-lg-6 col-sm-12">
+            <h3 class="mt-40 mt-lg-0">What I did in this project</h3>
+            <h6 class="mt-16 mb-8 text-weak">MY ROLE AND DURATION</h6>
+            <ul>
+              <li>UI/UX designer</li>
+              <li>Development of the landing page using WordPress</li>
+              <li>The project lasted 4 months</li>
+              <li>Three parts: web app, mobile app and landing page</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <!-- Current situation-->
+      <article class="container-xxl">
+        <div class="prompt-note-blue p-40 mt-48 rounded-4 box-raised">
+          <h3 class="mb-24">Result</h3>
+          <p class="col-lg-8 col-sm-12">
+            The current situation of Q-Sign is that it was initially developed
+            as an MVP (Minimum Viable Product) and attracted interest from
+            investment capital, Do Venture. However, regrettably, the final
+            deal did not materialize.
+          </p>
+        </div>
+      </article>
+
+      <!-- UI shows-->
+      <div class="container-xxl mt-48">
+        <div class="row">
+          <figure class="col-lg-4 col-sm-12">
+            <img src="img/qsign-decor1.webp" class="rounded-3" alt="qsign-decor" />
+            <figcaption>Mobile app and web app of q-sign</figcaption>
+          </figure>
+          <figure class="col-lg-4 col-sm-12">
+            <img src="img/qsign-decor2.webp" class="rounded-3" alt="qsign-decor" />
+            <figcaption>Q-sign’s Landing page</figcaption>
+          </figure>
+          <figure class="col-lg-4 col-sm-12 mt-4">
+            <img src="img/qsign-decor4.webp" class="rounded-3" alt="qsign-decor" />
+            <figcaption>Q-sign web app</figcaption>
+          </figure>
+
+          <figure class="col-lg-4 col-sm-12 mt-4">
+            <img src="img/qsign_newUI1.webp" class="rounded-3" alt="qsign-decor" />
+          </figure>
+          <figure class="col-lg-4 col-sm-12 mt-4">
+            <img src="img/qsign_newUI2.webp" class="rounded-3" alt="qsign-decor" />
+          </figure>
+          <figure class="col-lg-4 col-sm-12 mt-4">
+            <img src="img/qsign_newUI3.webp" class="rounded-3" alt="qsign-decor" />
+          </figure>
+        </div>
+      </div>
+
+      <!-- Prototype-->
+      <section class="prototype border-1 bg-blue-20 py-80 mt-80 py-lg-80 mt-lg-80">
+        <div class="container-xxl text-center">
+          <div class="">
+            <h2 class="text-center">Prototype</h2>
+            <h6 class="text-weak mt-8 col-lg-8 col-sm-12 mx-auto">
+              Helps everyone imagination
+            </h6>
+            <p class="mt-24 col-lg-8 col-sm-12 mx-auto">
+              The prototype serves as a tool to help everyone visualize how
+              Q-Sign works. The Q-Sign mobile and web applications were built
+              specifically to shed light on the operation of the product for
+              product owners, stakeholders, developers, and designers alike.
+            </p>
+          </div>
+        </div>
+
+        <div class="container-xxl mt-80">
+          <div class="text-center">
+            <div class="position-relative iframe-container-xxl d-none d-sm-block">
+              <div class="text-center fs-14 text-weak mt-24">
+                Click on the desktop screen to interact with the prototype
+              </div>
+              <iframe class="desktop" src="https://xd.adobe.com/embed/e4b1fa5f-50dc-4602-8dc4-2b86e8eeb926-b1e2/"
+                width="1024" height="638" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- Mobile prototype-->
+        <div class="text-center fs-14 text-weak mt-40">
+          Click on the mobile screen to interact with the prototype
+        </div>
+        <div class="smartphone mt-24">
+          <div class="content">
+            <iframe src="https://xd.adobe.com/embed/743c6cd5-ac57-4484-9e5b-d115970481fa-216f/" width="325" height="614"
+              frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+          </div>
+        </div>
+        <div class="text-center mt-80">
+          <a class="btn btn-primary primary-lg-button mx-auto" target="_blank"
+            href="https://xd.adobe.com/view/f10a9c32-9844-44d5-987a-365106cc0283-a459/grid/" role="button">View full
+            prototype</a>
+        </div>
+      </section>
+      <!-- SWOT-->
+      <div class="py-lg-80 py-80">
+        <div class="container-xxl">
+          <h2>Competitor Analysis</h2>
+          <p class="col-lg-8 col-sm-12 text-start mt-24">
+            I conducted a rapid competitor analysis to assess the
+            <b>strengths and weaknesses </b> of existing e-signature products
+            in the market. Using this information, we aimed to identify
+            opportunities for Q-Sign, whether in terms of direction, features,
+            or target market.
+          </p>
+          <h6 class="mt-48 text-weak">Our competitors</h6>
+          <div class="mt-16 d-flex">
+            <div class="pe-16">
+              <img src="img/com11.svg" alt="" />
+            </div>
+            <div class="pe-16">
+              <img src="img/com21.svg" alt="" />
+            </div>
+            <div class="pe-16">
+              <img src="img/com31.svg" alt="" />
+            </div>
+          </div>
+          <div class="row mt-80">
+            <div class="col-lg-6 col-sm-12">
+              <div class="p-40 h-100 rounded-4 box-raised" style="background: url('img/S.svg') no-repeat center, white">
+                <h4 class="fw-bold">Strengths</h4>
+                <ul class="mt-16">
+                  <li>Market leader in E-signature technology</li>
+                  <li>Diverse range of solutions</li>
+                  <li>Strong brand equity</li>
+                  <li>Strong financial performance</li>
+                  <li>Extensive dealer network and associates network</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 mt-32 mt-lg-0">
+              <div class="text-start p-40 h-100 rounded-4 box-raised"
+                style="background: url('img/w.svg') no-repeat center, white">
+                <h4 class="fw-bold">Weaknesses</h4>
+                <ul class="mt-16">
+                  <li>Dependence on third-party software and platform</li>
+                  <li>Faces privacy and security concerns</li>
+                  <li>Different regulations and cultural differences</li>
+                  <li>
+                    Competes with numerous e-signature management companies
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-32">
+            <div class="col-lg-6 col-sm-12">
+              <div class="text-start p-40 h-100 rounded-4 box-raised"
+                style="background: url('img/O.svg') no-repeat center, white">
+                <h4 class="fw-bold">Opportunities</h4>
+                <ul class="mt-16">
+                  <li>Local collaboration</li>
+                  <li>Lowering of the cost of new product launches</li>
+                  <li>Trend of customers migrating to higher end products</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 mt-32 mt-lg-0">
+              <div class="text-start p-40 h-100 rounded-4 box-raised"
+                style="background: url('img/T.webp') no-repeat center, white">
+                <h4 class="fw-bold">Threats</h4>
+                <ul class="mt-16">
+                  <li>Competitive pressures</li>
+                  <li>Trade relation between US and other countries</li>
+                  <li>Lack of localization</li>
+                  <li>Government trade law obstacle</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 col-sm-12 text-start">
+              <h3 class="mt-48">Summary</h3>
+              <p class="mt-16">
+                Based on the weaknesses and threats identified in the SWOT
+                analysis of competitors, the team decided to develop the
+                e-signature product with the following key features and
+                strategies
+              </p>
+              <ul>
+                <li>
+                  Encryption of e-signatures and uploaded documents to ensure
+                  privacy and security.
+                </li>
+                <li>
+                  Identification of countries where governments have
+                  regulations supporting e-signatures.
+                </li>
+                <li>
+                  Targeting regions with tech-savvy users, rapid social media
+                  growth, and robust 5G networks
+                </li>
+                <li>
+                  Localization of document templates to cater to specific
+                  regional and cultural needs.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- User flow-->
+      <section class="py-lg-80 py-80 border-1 bg-blue-20">
+        <div class="container-xxl">
+          <h2>How Q-sign operate</h2>
+
+          <div class="mt-16">
+            <h5>Why I have to draw the user flow?</h5>
+            <ul class="col-lg-8 col-sm-12 mt-16">
+              <li>
+                It helps product owners and stakeholders understand all user
+                steps in Q-Sign.
+              </li>
+              <li>
+                It ensures designers connect features seamlessly, guaranteeing
+                a smooth user journey.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-64">
+            <div class="row mt-40">
+              <div class="col-lg-7 col-sm-12">
+                <img src="img/qsign-flow1.svg" alt="" />
+              </div>
+              <div class="col-lg-5 col-sm-12">
+                <h5 class="mt-40 mt-lg-0">Document image capture</h5>
+                <p class="mt-16">
+                  Before taking a picture, users must sign in or sign up.
+                  Then, they can either:
+                </p>
+                <ul>
+                  <li>Go to Camera to take a photo of documents.</li>
+                  <li>Scan a QR code to add friends or open a document.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row mt-64">
+              <div class="col-lg-7 col-sm-12">
+                <img src="img/qsign-flow2.svg" alt="Flow of create document" />
+              </div>
+              <div class="col-lg-5 col-sm-12">
+                <h5 class="mt-40 mt-lg-0">
+                  Create a blank document or upload one
+                </h5>
+
+                <ol class="mt-16">
+                  <li>
+                    From the document screen, the owner generates a blank
+                    document and composes it using a WYSIWYG editor.
+                  </li>
+                  <li>
+                    The owner adds necessary information such as name, title,
+                    and signature box.
+                  </li>
+                  <li>The owner invites the receiver via email.</li>
+                  <li>
+                    The receiver reads the document and adds comments if
+                    necessary.
+                  </li>
+                  <li>Finally, both parties sign the document.</li>
+                </ol>
+              </div>
+            </div>
+
+            <div class="row mt-64">
+              <div class="col-lg-7 col-sm-12">
+                <img src="img/qsign-flow3.svg" alt="" />
+              </div>
+              <div class="col-lg-5 col-sm-12">
+                <h5 class="mt-40 mt-lg-0">Communicate with others</h5>
+                <ul class="mt-16">
+                  <li>
+                    Chat screen > Create new chat > browse on address book
+                  </li>
+                  <li>
+                    Or, on Chat screen > Add friend > Scan QR code or send
+                    request via email.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container-xxl py-lg-80 py-80 d-flex flex-column justify-content-center text-center">
+        <h2>Style Guide</h2>
+        <h6 class="text-weak mt-8 col-lg-8 col-sm-12 mx-auto">
+          Better communication
+        </h6>
+        <p class="mt-24 col-lg-8 col-sm-12 mx-auto">
+          A style guide aids in designer-to-developer handoff by facilitating
+          smooth communication between the two parties.
+        </p>
+      </div>
+
+      <div class="container-xxl">
+        <div class="row mt-48 justify-content-center">
+          <div class="col-md-5 col-sm-12 mt-40 mt-sm-0">
+            <img class="" src="img/typography.webp" alt="" />
+          </div>
+          <div class="col-md-3 col-sm-12 h-100">
+            <img src="img/color-guide.svg" alt="Color Guide" />
+          </div>
+        </div>
+      </div>
+      <!-- Next project Submit-->
+      <section class="mt-80 bg-blue-20 border-1 py-lg-80 py-80">
+        <div class="container-xxl">
+          <div class="row">
+            <div class="col-md-6 col-xs-12">
+              <img class="img-fluid" src="img/nextproj-submit.webp" alt="" />
+            </div>
+
+            <div class="col-md-6 col-xs-12">
+              <div class="p-40 rounded-4 mt-16 mt-lg-0 h-100 bg-blue-50 border-1 position-relative"
+                style="overflow:hidden">
+                <a href="submit.html" class="text-strong">
+                  <h5>
+                    Next project
+                    <img class="pr-16" src="img/arrow.webp" width="24px" alt="" />
+                  </h5>
+                </a>
+
+                <h2 class="mt-md-80 mt-40" style="color: #5DCB6B">Submit</h2>
+                <p class="mt-16">
+                  An HR solution replacing Excel and messenger for streamlined
+                  processes
+                </p>
+                <div class="position-absolute z-n1" style="width: 37rem;height: 37rem;   border-radius: 372px;
+                          
+                                        background: rgba(94, 203, 106, 0.10);left: -186px;
+                                        bottom: -185.877px;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- main body-->
+      <!-- footer-->
+      <footer class="py-40 box-raised">
+        <div class="container-xxl d-flex flex-sm-row flex-column justify-content-between">
+          <div class="row">
+            <p class="uppercase-small mb-0">Project</p>
+            <ul class="nav ms-16 mt-16">
+              <li class="nav-item">
+                <a class="nav-link text-weak me-16" aria-current="page" href="design-system.html">Design system</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-weak me-16" aria-current="page" href="q-sign.html">Q-sign</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-weak mx-16" href="submit.html">Submit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-weak mx-0 mx-md-16" href="bulkbox.html">Bulk Box</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mt-16 mt-sm-0">
+            <p class="uppercase-small mb-8">Contact</p>
+
+            <a class="link-offset-2 text-weak link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="mailto: a38986640@gmail.com">Send me an email</a>
+          </div>
+        </div>
+
+        <hr class="my-24" />
+
+        <div class="container-xxl mt-40 mt-lg-0 d-flex flex-sm-row flex-column justify-content-between">
+          <p class="text-weak">
+            <img class="align-middle" src="img/blue-circle.webp" alt="decoration" />
+            Based in Toronto, Canada
+          </p>
+
+          <p class="text-weak">
+            <img class="align-middle" src="img/yellow-rec.webp" alt="decoration" />
+            Freelance projects:
+            <a target="_blank"
+              class="text-weak link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              href="https://tanhoangdesign.com">https://tanhoangdesign.com</a>
+          </p>
+        </div>
+      </footer>
+      <!-- footer-->
+    </div>
+    <!-- container-xxl-->
+  </main>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js"></script>
+</body>
+
+</html>

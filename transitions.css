@@ -1,0 +1,34 @@
+html.is-changing .transition-main {
+  transition: opacity 250ms ease-in-out;
+}
+
+html.is-leaving .transition-main {
+  transition: opacity 250ms ease-in-out;
+}
+
+html.is-animating .transition-main {
+  opacity: 0;
+}
+
+.logo {
+  transition: opacity 250ms, transform 250ms;
+}
+
+html.is-animating .logo {
+  opacity: 0.3;
+  transform: scale(0.9);
+}
+
+h1 {
+  transition: transform 300ms, opacity 300ms;
+}
+
+html.is-animating.is-leaving h1 {
+  transform: translateY(2rem);
+  opacity: 0;
+}
+
+html.is-animating.is-rendering h1 {
+  transform: translateY(-2rem);
+  opacity: 0;
+}

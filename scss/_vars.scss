@@ -1,0 +1,22 @@
+/* reset default rem 16px = 10px */
+html {
+  font-size: 62.5%;
+}
+
+$font-size-base: 1.8rem;
+$grid-gutter-width: 3.2rem;
+
+$spacer: 0.1rem;
+$spacers: (
+  0: 0,
+);
+@for $i from 1 through 180 {
+  $spacers: map-merge(
+    $spacers,
+    (
+      $i: (
+        $i * $spacer,
+      ),
+    )
+  );
+}
