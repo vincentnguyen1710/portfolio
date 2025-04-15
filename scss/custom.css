@@ -82825,10 +82825,6 @@ h6, .h6 {
   font-size: 1.8rem;
 }
 
-.hero-image {
-  top: 340%;
-}
-
 .navbar-nav .nav-item a:hover {
   color: var(--text-strong);
 }
@@ -82860,6 +82856,10 @@ h6, .h6 {
 
 .start-52 {
   left: 52%;
+}
+
+.start-20 {
+  left: 20%;
 }
 
 .bottom-30 {
@@ -83338,6 +83338,12 @@ footer .nav-link.active {
   background-color: #f2f2f2;
 }
 
+/* Zoom fixed*/
+html {
+  -webkit-text-size-adjust: 100%;
+  transform: scale(1);
+}
+
 @keyframes moveSlideshow {
   100% {
     transform: translateX(-50.6666%);
@@ -83412,9 +83418,6 @@ footer .nav-link.active {
     width: 30rem;
     height: 3rem;
     margin-top: 33rem;
-  }
-  .hero-image {
-    top: 420%;
   }
   .contact-section {
     background-position: 14%;
