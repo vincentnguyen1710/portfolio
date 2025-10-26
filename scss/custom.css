@@ -83127,19 +83127,10 @@ main,
 }
 
 #two {
-  position: absolute;
+  position: relative; /* or absolute/fixed */
   transition: transform 0.2s ease-out;
 }
 
-/* Fix portrait centering on mobile devices */
-@media (max-width: 768px) {
-  #two {
-    position: absolute !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    margin-top: 0 !important;
-  }
-}
 /* mobile mockup*/
 .smartphone {
   position: relative;
