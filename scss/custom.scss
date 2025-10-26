@@ -448,8 +448,18 @@ main,
 }
 
 #two {
-  position: relative; /* or absolute/fixed */
+  position: absolute; /* Changed to absolute for better centering */
   transition: transform 0.2s ease-out;
+}
+
+/* Fix portrait centering on mobile devices */
+@media (max-width: 375px) {
+  #two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+  }
 }
 
 /* mobile mockup*/
