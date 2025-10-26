@@ -4,6 +4,9 @@ const swup = new Swup({
   containers: ["#swup"],
 });
 
+// Expose swup globally for other scripts
+window.swup = swup;
+
 // Typewriter
 
 var TxtType = function (el, toRotate, period) {
@@ -73,4 +76,11 @@ if (document.readyState === "complete") {
 }
 
 // Run after every additional navigation by swup
-swup.hooks.on("page:view", () => typeWrite());
+swup.hooks.on("page:view", () => {
+  typeWrite();
+
+  // Load header after page transition
+  if (typeof window.loadHeader === "function") {
+    window.loadHeader();
+  }
+});
