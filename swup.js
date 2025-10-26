@@ -79,8 +79,11 @@ if (document.readyState === "complete") {
 swup.hooks.on("page:view", () => {
   typeWrite();
 
-  // Load header after page transition
+  // Load header and footer after page transition
   if (typeof window.loadHeader === "function") {
     window.loadHeader();
+  }
+  if (typeof window.loadFooter === "function") {
+    window.loadFooter();
   }
 });

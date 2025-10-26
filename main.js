@@ -35,9 +35,18 @@ function loadHeader() {
 // Expose loadHeader globally so swup.js can call it
 window.loadHeader = loadHeader;
 
+// Function to load footer
+function loadFooter() {
+  $("#footer-placeholder").load("footer.html");
+}
+
+// Expose loadFooter globally so swup.js can call it
+window.loadFooter = loadFooter;
+
 $(document).ready(function () {
-  // Load header on initial page load
+  // Load header and footer on initial page load
   loadHeader();
+  loadFooter();
 
   // Mouse move effect for hero image
   $(window).on("mousemove", function (event) {

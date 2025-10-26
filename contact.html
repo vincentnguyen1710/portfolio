@@ -50,14 +50,12 @@
                     </div>
 
                     <!-- Contact Form -->
-                    <form action="https://formsubmit.co/a38986640@gmail.com" method="POST" class="mt-40">
-                        <!-- Hidden fields for FormSubmit configuration -->
-                        <input type="hidden" name="_subject" value="New contact from portfolio">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_template" value="table">
-                        <input type="hidden" name="_next"
+                    <form action="https://api.web3forms.com/submit" method="POST" class="mt-40">
+                        <!-- Web3Forms Access Key - Get yours free at https://web3forms.com -->
+                        <input type="hidden" name="access_key" value="738bf5ed-c321-4003-bc80-c32deb630a66">
+                        <input type="hidden" name="subject" value="New contact from portfolio">
+                        <input type="hidden" name="redirect"
                             value="https://vincentnguyen1710.github.io/portfolio/index.html?success=true">
-                        <input type="hidden" name="_replyto" value="email">
 
                         <div class="row g-32">
                             <!-- Name Field -->
@@ -125,51 +123,7 @@
         </div>
 
         <!-- footer-->
-        <footer class="py-40 mt-80">
-            <div class="container d-flex flex-sm-row flex-column justify-content-between">
-                <div class="row">
-                    <p class="uppercase-small mb-0">Project</p>
-                    <ul class="nav ms-16 mt-16">
-                        <li class="nav-item">
-                            <a class="nav-link text-weak me-16" aria-current="page" href="design-system.html">Design
-                                system</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-weak me-16" aria-current="page" href="q-sign.html">Q-sign</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-weak mx-16" href="submit.html">Submit</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-weak mx-0 mx-md-16" href="bulkbox.html">Bulk Box</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="mt-16 mt-sm-0">
-                    <p class="uppercase-small mb-0">Contact</p>
-
-                    <a class="link-offset-2 text-weak link-underline-opacity-25 link-underline-opacity-100-hover"
-                        href="mailto: a38986640@gmail.com">Send me an email</a>
-                </div>
-            </div>
-
-            <hr class="my-24" />
-
-            <div class="container mt-40 mt-lg-0 d-flex flex-sm-row flex-column justify-content-between">
-                <p class="text-weak">
-                    <img class="align-middle" src="img/blue-circle.webp" alt="decoration" />
-                    Based in Toronto, Canada
-                </p>
-
-                <p class="text-weak">
-                    <img class="align-middle" src="img/yellow-rec.webp" alt="decoration" />
-                    Freelance projects:
-                    <a target="_blank"
-                        class="text-weak link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-                        href="https://tanhoangdesign.com">https://tanhoangdesign.com</a>
-                </p>
-            </div>
-        </footer>
+        <div id="footer-placeholder"></div>
         <!-- footer-->
     </main>
     <!-- container-->

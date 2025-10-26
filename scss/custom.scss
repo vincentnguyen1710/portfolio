@@ -809,9 +809,6 @@ html {
   .tech-slideshow {
     height: 2000px;
   }
-  .logo {
-    max-width: 130px;
-  }
   figcaption {
     padding: 0;
   }
@@ -821,4 +818,10 @@ html {
 .icon-text-size {
   height: 1.5rem;
   width: auto;
+}
+
+// Subtle grey separator lines for header and footer
+hr {
+  border-top: 1px solid rgba(121, 125, 128, 0.3);
+  opacity: 1;
 }
