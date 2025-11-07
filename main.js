@@ -16,6 +16,8 @@ function loadHeader() {
       $('a[href="work.html"]').addClass("active");
     } else if (currentPage === "about.html") {
       $('a[href="about.html"]').addClass("active");
+    } else if (currentPage === "contact.html") {
+      $('a[href="contact.html"]').addClass("active");
     } else if (
       [
         "design-system.html",

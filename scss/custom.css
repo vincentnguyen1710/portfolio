@@ -83148,6 +83148,12 @@ main,
   transition: transform 0.2s ease-out;
 }
 
+:-webkit-any #two {
+  position: relative; /* or absolute/fixed */
+  -webkit-transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+
 /* Dropdown toggle arrow styling */
 .nav-item.dropdown {
   position: relative;
@@ -83490,6 +83496,10 @@ html {
 .icon-text-size {
   height: 1.5rem;
   width: auto;
+}
+
+body.about-page .icon-text-size {
+  height: 2.5rem;
 }
 
 hr {
