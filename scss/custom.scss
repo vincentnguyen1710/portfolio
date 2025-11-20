@@ -321,6 +321,17 @@ footer li {
   color: white;
 }
 
+// Landing page hero section - ensure proper spacing with absolute positioned image
+.grand-text {
+  position: relative;
+  padding-bottom: 32rem;
+
+  // @media (min-width: 768px) {
+  //   padding-top: 10rem;
+  //   padding-bottom: 14rem;
+  // }
+}
+
 .running-text > .stroke-text {
   -webkit-text-stroke: 1px #333;
   color: white;
@@ -490,11 +501,7 @@ main,
 }
 
 #two {
-  position: relative; /* or absolute/fixed */
-  transition: transform 0.2s ease-out;
-}
-:-webkit-any #two {
-  position: relative; /* or absolute/fixed */
+  position: absolute;
   transition: transform 0.2s ease-out;
 }
 
