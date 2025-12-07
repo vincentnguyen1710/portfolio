@@ -32,10 +32,10 @@ TxtType.prototype.tick = function () {
   this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
 
   var that = this;
-  var delta = 60 - Math.random() * 30;
+  var delta = 60; // Consistent typing speed (was random)
 
   if (this.isDeleting) {
-    delta /= 2;
+    delta = 30; // Consistent delete speed (2x faster)
   }
 
   if (!this.isDeleting && this.txt === fullTxt) {

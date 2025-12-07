@@ -5,8 +5,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Custom code here
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=SeogoUI:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SeogoUI:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
 
 body {
   height: 100vh;
@@ -14,9 +14,16 @@ body {
   overflow-x: hidden;
 }
 
-/*Define custom root color */
+// Logo styling
+.logo-img {
+  width: 80%;
+  max-width: 56px;
+}
+
+/*Define custom root color and design tokens */
 :root,
 [data-bs-theme="light"] {
+  // Colors
   --primary-strong: rgb(20, 81, 116);
   --text-strong: rgba(0, 22, 38, 0.9);
   --text-weak: rgba(0, 30, 51, 0.65);
@@ -37,6 +44,15 @@ body {
   --blue-200: rgba(20, 81, 116, 0.2);
   --blue-50: rgba(20, 81, 116, 0.05);
   --blue-20: rgba(20, 81, 116, 0.02);
+
+  // Z-index scale
+  --z-dropdown: 10;
+  --z-sticky: 20;
+  --z-fixed: 30;
+  --z-modal-backdrop: 40;
+  --z-modal: 50;
+  --z-popover: 60;
+  --z-tooltip: 70;
 }
 
 /*Define color semantic*/
@@ -455,6 +471,13 @@ figcaption {
   font-size: 1.4rem;
 }
 
+.iframe-container {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 67.5%; // Aspect ratio padding hack: maintains 16:9 ratio (9/16 * 120% to account for desktop frame)
+  height: 0;
+}
+
 .iframe-container-xxl {
   padding-top: 2rem;
   padding-bottom: 67.5%;
@@ -769,68 +792,22 @@ html {
 /* Responsive*/
 
 @media (prefers-reduced-motion: no-preference) {
-  /* img {
-    scale: 0.8;
-    opacity: 0;
-    animation: fade-in linear forwards;
-    animation-timeline: view();
-    animation-range: entry 200px;
-  } */
-
-  /* @keyframess fade-in {
-    to {
-      scale: 1;
-      opacity: 1;
-    }
-  } */
+  /* Animation preferences handled by browser defaults */
 }
 
-@media only screen and (max-width: 685px) {
+// Mobile-specific adjustments (consolidated from 685px breakpoint)
+@media (max-width: 767px) {
   .running-text h1,
   .marquee h2.stroke-text,
   h2.stroke-text + h2 {
     font-size: 3.2rem;
     line-height: 150%;
   }
+  
   .mt-sm-n0 {
     margin-top: 0;
   }
-  h1 {
-    font-size: 4.8rem;
-    line-height: 5.6rem;
-  }
-  h2 {
-    font-size: 4rem;
-    line-height: 4.8rem;
-  }
-  h3 {
-    font-size: 3.3rem;
-    line-height: 4.1rem;
-  }
-  h4,
-  .typewrite {
-    font-size: 2.8rem;
-    line-height: 3.6rem;
-  }
-
-  h5 {
-    font-size: 2.3rem;
-    line-height: 3.1rem;
-  }
-  h6 {
-    font-size: 1.9rem;
-    line-height: 2.7rem;
-  }
-  p,
-  li {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-  }
-
-  p.text-small {
-    font-size: 1.4rem;
-    line-height: 2rem;
-  }
+  
   .grey-shape {
     width: 30rem;
     height: 3rem;
@@ -840,12 +817,15 @@ html {
   .contact-section {
     background-position: 14%;
   }
+  
   .hover-1-description {
     opacity: 1;
   }
+  
   .tech-slideshow {
     height: 2000px;
   }
+  
   figcaption {
     padding: 0;
   }
