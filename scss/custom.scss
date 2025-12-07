@@ -16,8 +16,13 @@ body {
 
 // Logo styling
 .logo-img {
-  width: 80%;
-  max-width: 56px;
+  width: 120%;
+  max-width: 96px;
+}
+
+.navbar-brand.logo {
+  display: flex;
+  align-items: center;
 }
 
 /*Define custom root color and design tokens */
@@ -803,11 +808,11 @@ html {
     font-size: 3.2rem;
     line-height: 150%;
   }
-  
+
   .mt-sm-n0 {
     margin-top: 0;
   }
-  
+
   .grey-shape {
     width: 30rem;
     height: 3rem;
@@ -817,15 +822,15 @@ html {
   .contact-section {
     background-position: 14%;
   }
-  
+
   .hover-1-description {
     opacity: 1;
   }
-  
+
   .tech-slideshow {
     height: 2000px;
   }
-  
+
   figcaption {
     padding: 0;
   }

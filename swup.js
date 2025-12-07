@@ -13,7 +13,7 @@ var TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
+  this.period = parseInt(period, 10) || 800; // Reduced pause time between text changes
   this.txt = "";
   this.tick();
   this.isDeleting = false;
@@ -32,10 +32,10 @@ TxtType.prototype.tick = function () {
   this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
 
   var that = this;
-  var delta = 60; // Consistent typing speed (was random)
+  var delta = 40; // Faster typing speed
 
   if (this.isDeleting) {
-    delta = 30; // Consistent delete speed (2x faster)
+    delta = 20; // Faster delete speed (2x faster)
   }
 
   if (!this.isDeleting && this.txt === fullTxt) {
