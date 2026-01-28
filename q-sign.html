@@ -577,9 +577,9 @@
             </ul>
           </div>
 
-          <div class="mt-48 text-center">
+          <div class="mt-48 text-center" id="seeMoreUserFlows">
             <a class="text-decoration-underline" role="button" data-bs-toggle="collapse" href="#userFlowDetails"
-              aria-expanded="false" aria-controls="userFlowDetails">
+              aria-expanded="false" aria-controls="userFlowDetails" onclick="document.getElementById('seeMoreUserFlows').style.display='none'">
               See more user flows
             </a>
           </div>
@@ -650,7 +650,7 @@
 
             <div class="mt-48 text-center">
               <a class="text-decoration-underline" role="button" data-bs-toggle="collapse" href="#userFlowDetails"
-                aria-expanded="true" aria-controls="userFlowDetails">
+                aria-expanded="true" aria-controls="userFlowDetails" onclick="document.getElementById('seeMoreUserFlows').style.display='block'">
                 See less
               </a>
             </div>
