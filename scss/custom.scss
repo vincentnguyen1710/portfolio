@@ -285,8 +285,12 @@ img {
 }
 .stroke-text:hover {
   color: #333;
-  transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s;
+  transition:
+    opacity 0.5s,
+    -webkit-transform 0.5s;
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
   transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
   -webkit-transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
   transform: scale3d(1, 1, 1) translate3d(0, 0, 0);
@@ -297,12 +301,14 @@ img {
 }
 
 header.menu {
-  box-shadow: 0px -4px 4px -2px rgba(20, 81, 116, 0.04),
+  box-shadow:
+    0px -4px 4px -2px rgba(20, 81, 116, 0.04),
     0px 4px 8px -2px rgba(0, 0, 0, 0.04);
 }
 
 .box-raised {
-  box-shadow: 0px -4px 4px -2px rgba(20, 81, 116, 0.04),
+  box-shadow:
+    0px -4px 4px -2px rgba(20, 81, 116, 0.04),
     0px 4px 8px -2px rgba(0, 0, 0, 0.04);
   border: 1px solid var(--stroke-weak);
 }
@@ -488,7 +494,8 @@ figcaption {
   padding-bottom: 67.5%;
   height: 0;
 }
-div iframe.desktop {
+div iframe.desktop,
+div img.desktop {
   box-sizing: border-box;
   background: url("../img/desktop.webp") center center no-repeat;
   background-size: contain;
@@ -611,7 +618,8 @@ main,
   padding-bottom: 140%;
   border-radius: 16px;
   /* Shadow/Raised */
-  box-shadow: 0px -4px 4px -2px rgba(20, 81, 116, 0.04),
+  box-shadow:
+    0px -4px 4px -2px rgba(20, 81, 116, 0.04),
     0px 4px 8px -2px rgba(0, 0, 0, 0.04);
 }
 
@@ -852,3 +860,31 @@ hr {
   border-top: 1px solid rgba(121, 125, 128, 0.3);
   opacity: 1;
 }
+// Design system spacing utilities (from Figma)
+$spacing-8: 8px;
+$spacing-16: 16px;
+$spacing-24: 24px;
+$spacing-32: 32px;
+$spacing-40: 40px;
+$spacing-48: 48px;
+$spacing-64: 64px;
+$spacing-80: 80px;
+$spacing-120: 120px;
+
+.px-120 { padding-left: $spacing-120; padding-right: $spacing-120; }
+.py-80 { padding-top: $spacing-80; padding-bottom: $spacing-80; }
+.py-40 { padding-top: $spacing-40; padding-bottom: $spacing-40; }
+.pt-80 { padding-top: $spacing-80; }
+.pb-80 { padding-bottom: $spacing-80; }
+.mt-80 { margin-top: $spacing-80; }
+.mb-80 { margin-bottom: $spacing-80; }
+.mt-64 { margin-top: $spacing-64; }
+.mt-48 { margin-top: $spacing-48; }
+.mt-40 { margin-top: $spacing-40; }
+.mt-32 { margin-top: $spacing-32; }
+.mt-24 { margin-top: $spacing-24; }
+.gap-48 { gap: $spacing-48; }
+.gap-32 { gap: $spacing-32; }
+.gap-24 { gap: $spacing-24; }
+.gap-16 { gap: $spacing-16; }
+.gap-8 { gap: $spacing-8; }

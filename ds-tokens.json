@@ -1,0 +1,2321 @@
+{
+  "_Colours primitive/Mode 1": {
+    "Grey_solid": {
+      "0": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#ffffff",
+        "$type": "color"
+      },
+      "50": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#f5f8fa",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#797d80",
+        "$type": "color"
+      },
+      "700": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#45494d",
+        "$type": "color"
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#292f33",
+        "$type": "color"
+      },
+      "850": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#1d2226",
+        "$type": "color"
+      },
+      "900": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#12161a",
+        "$type": "color"
+      },
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#000000",
+        "$type": "color"
+      },
+      "Color": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#ffffff",
+        "$type": "color"
+      }
+    },
+    "Dark blue": {
+      "20": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#00518005",
+        "$type": "color"
+      },
+      "40": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#0051800a",
+        "$type": "color"
+      },
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#0041661a",
+        "$type": "color"
+      },
+      "550": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#0017248c",
+        "$type": "color"
+      },
+      "650": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#002033a6",
+        "$type": "color"
+      },
+      "750": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#001826bf",
+        "$type": "color"
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#001826cc",
+        "$type": "color"
+      },
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#001826e6",
+        "$type": "color"
+      }
+    },
+    "Teal": {
+      "50": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#1451740d",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#14517433",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#14517480",
+        "$type": "color"
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#145174cc",
+        "$type": "color"
+      },
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#145174",
+        "$type": "color"
+      }
+    },
+    "Blue": {
+      "50": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#56ccf20d",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#56ccf233",
+        "$type": "color"
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#56ccf2cc",
+        "$type": "color"
+      },
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#56ccf2",
+        "$type": "color"
+      }
+    },
+    "Dark yellow": {
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#676827",
+        "$type": "color"
+      }
+    },
+    "Dark green": {
+      "50": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#155a320d",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#155a3233",
+        "$type": "color"
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#155a32cc",
+        "$type": "color"
+      },
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#155a32",
+        "$type": "color"
+      }
+    },
+    "Grey Neutral": {
+      "Dark": {
+        "25": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#00000005",
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#0000000d",
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#0000001a",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#00000033",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#00000073",
+          "$type": "color"
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#000000a6",
+          "$type": "color"
+        },
+        "1000": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#000000e6",
+          "$type": "color"
+        }
+      },
+      "Light": {
+        "25": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#ffffff08",
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#ffffff0f",
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#ffffff1f",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#ffffff33",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#ffffff99",
+          "$type": "color"
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#ffffffc7",
+          "$type": "color"
+        },
+        "1000": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "#ffffff",
+          "$type": "color"
+        }
+      }
+    },
+    "Yellow": {
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "#faa342",
+        "$type": "color"
+      }
+    },
+    "Shadow": {
+      "Raised": {
+        "0": {
+          "color": {
+            "$value": "#1451740a",
+            "$type": "color"
+          },
+          "type": {
+            "$value": "dropShadow",
+            "$type": "type"
+          },
+          "x": {
+            "$value": "0",
+            "$type": "x"
+          },
+          "y": {
+            "$value": "-4",
+            "$type": "y"
+          },
+          "blur": {
+            "$value": "4",
+            "$type": "blur"
+          },
+          "spread": {
+            "$value": "-2",
+            "$type": "spread"
+          }
+        },
+        "1": {
+          "color": {
+            "$value": "#1451740a",
+            "$type": "color"
+          },
+          "type": {
+            "$value": "dropShadow",
+            "$type": "type"
+          },
+          "x": {
+            "$value": "0",
+            "$type": "x"
+          },
+          "y": {
+            "$value": "4",
+            "$type": "y"
+          },
+          "blur": {
+            "$value": "8",
+            "$type": "blur"
+          },
+          "spread": {
+            "$value": "-2",
+            "$type": "spread"
+          }
+        }
+      },
+      "Overlay": {
+        "0": {
+          "color": {
+            "$value": "#0000000a",
+            "$type": "color"
+          },
+          "type": {
+            "$value": "dropShadow",
+            "$type": "type"
+          },
+          "x": {
+            "$value": "0",
+            "$type": "x"
+          },
+          "y": {
+            "$value": "8",
+            "$type": "y"
+          },
+          "blur": {
+            "$value": "8",
+            "$type": "blur"
+          },
+          "spread": {
+            "$value": "-4",
+            "$type": "spread"
+          }
+        },
+        "1": {
+          "color": {
+            "$value": "#00000014",
+            "$type": "color"
+          },
+          "type": {
+            "$value": "dropShadow",
+            "$type": "type"
+          },
+          "x": {
+            "$value": "0",
+            "$type": "x"
+          },
+          "y": {
+            "$value": "20",
+            "$type": "y"
+          },
+          "blur": {
+            "$value": "24",
+            "$type": "blur"
+          },
+          "spread": {
+            "$value": "-4",
+            "$type": "spread"
+          }
+        }
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "$value": "AUTO",
+        "$type": "lineHeights"
+      },
+      "1": {
+        "$value": "AUTO",
+        "$type": "lineHeights"
+      },
+      "2": {
+        "$value": "AUTO",
+        "$type": "lineHeights"
+      },
+      "3": {
+        "$value": "AUTO",
+        "$type": "lineHeights"
+      },
+      "4": {
+        "$value": "AUTO",
+        "$type": "lineHeights"
+      },
+      "5": {
+        "$value": "AUTO",
+        "$type": "lineHeights"
+      },
+      "7": {
+        "$value": "160%",
+        "$type": "lineHeights"
+      },
+      "8": {
+        "$value": "160%",
+        "$type": "lineHeights"
+      },
+      "9": {
+        "$value": "160%",
+        "$type": "lineHeights"
+      },
+      "10": {
+        "$value": "160%",
+        "$type": "lineHeights"
+      },
+      "11": {
+        "$value": "AUTO",
+        "$type": "lineHeights"
+      },
+      "12": {
+        "$value": "AUTO",
+        "$type": "lineHeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "$value": "14",
+        "$type": "fontSizes"
+      },
+      "1": {
+        "$value": "16",
+        "$type": "fontSizes"
+      },
+      "2": {
+        "$value": "20",
+        "$type": "fontSizes"
+      },
+      "3": {
+        "$value": "25",
+        "$type": "fontSizes"
+      },
+      "4": {
+        "$value": "31",
+        "$type": "fontSizes"
+      },
+      "5": {
+        "$value": "39",
+        "$type": "fontSizes"
+      },
+      "6": {
+        "$value": "49",
+        "$type": "fontSizes"
+      },
+      "7": {
+        "$value": "61",
+        "$type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "$value": "-0.5",
+        "$type": "letterSpacing"
+      },
+      "1": {
+        "$value": "0%",
+        "$type": "letterSpacing"
+      },
+      "2": {
+        "$value": "20%",
+        "$type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "$value": "0",
+        "$type": "paragraphSpacing"
+      }
+    },
+    "Heading": {
+      "H1": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Heading}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Bold}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.0}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.7}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.0}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "H2": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Heading}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Bold}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.0}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.6}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "H3": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Heading}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Bold}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.0}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.5}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "H4 - Bold": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Heading}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Bold}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.0}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.4}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "H4 - Regular": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Heading}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Regular}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.0}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.4}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "H5": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Heading}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Bold}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.0}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.3}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      }
+    },
+    "Body": {
+      "Body - Large": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Body}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Regular}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{Typeface.Size.Heading 4}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.2}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "Body": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Body}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Regular}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.7}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.1}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "Body - Bold": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Body}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Medium}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.7}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.1}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "Body - Underline": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Body}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Regular}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.7}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.1}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.underline}",
+          "$type": "textDecoration"
+        }
+      },
+      "Body - Small": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Body}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Regular}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.7}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.0}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.1}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.none}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      }
+    },
+    "UPPERCASE": {
+      "Large": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Body}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Bold}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.0}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.1}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.2}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.uppercase}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      },
+      "Small": {
+        "fontFamily": {
+          "$value": "{Typeface.Family.Body}",
+          "$type": "fontFamilies"
+        },
+        "fontWeight": {
+          "$value": "{Typeface.Weight.Bold}",
+          "$type": "fontWeights"
+        },
+        "lineHeight": {
+          "$value": "{lineHeights.0}",
+          "$type": "lineHeights"
+        },
+        "fontSize": {
+          "$value": "{fontSize.0}",
+          "$type": "fontSizes"
+        },
+        "letterSpacing": {
+          "$value": "{letterSpacing.2}",
+          "$type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "$value": "{paragraphSpacing.0}",
+          "$type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "$value": "{paragraphIndent.0}",
+          "$type": "paragraphIndent"
+        },
+        "textCase": {
+          "$value": "{textCase.uppercase}",
+          "$type": "textCase"
+        },
+        "textDecoration": {
+          "$value": "{textDecoration.none}",
+          "$type": "textDecoration"
+        }
+      }
+    },
+    "textCase": {
+      "none": {
+        "$value": "none",
+        "$type": "textCase"
+      },
+      "uppercase": {
+        "$value": "uppercase",
+        "$type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "$value": "none",
+        "$type": "textDecoration"
+      },
+      "underline": {
+        "$value": "underline",
+        "$type": "textDecoration"
+      }
+    },
+    "paragraphIndent": {
+      "0": {
+        "$value": "0px",
+        "$type": "dimension"
+      }
+    }
+  },
+  "Colors semantic/Mode 1": {
+    "Text": {
+      "Strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.codeSyntax": {
+            "Web": "Text/Strong"
+          }
+        },
+        "$value": "{Grey.Light theme.1000}",
+        "$type": "color"
+      },
+      "Weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.750}",
+        "$type": "color"
+      },
+      "Brand": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Brand.1000}",
+        "$type": "color"
+      },
+      "Disabled": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.100}",
+        "$type": "color"
+      },
+      "Inverse strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Dark theme.1000}",
+        "$type": "color"
+      },
+      "Inverse weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Dark theme.700}",
+        "$type": "color"
+      }
+    },
+    "Stroke": {
+      "Strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.550}",
+        "$type": "color"
+      },
+      "Weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.100}",
+        "$type": "color"
+      },
+      "Brand strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Brand.800}",
+        "$type": "color"
+      },
+      "Brand weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Brand.200}",
+        "$type": "color"
+      },
+      "Inverse strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Dark theme.500}",
+        "$type": "color"
+      },
+      "Inverse weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Dark theme.100}",
+        "$type": "color"
+      }
+    },
+    "Icon": {
+      "Neutral": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.550}",
+        "$type": "color"
+      },
+      "Brand": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Brand.800}",
+        "$type": "color"
+      },
+      "Disabled": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.100}",
+        "$type": "color"
+      },
+      "Inverse strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Dark theme.1000}",
+        "$type": "color"
+      },
+      "Inverse weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Dark theme.500}",
+        "$type": "color"
+      }
+    },
+    "Fill": {
+      "Strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.1000}",
+        "$type": "color"
+      },
+      "Weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.40}",
+        "$type": "color"
+      },
+      "Weaker": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.20}",
+        "$type": "color"
+      },
+      "Hover": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.40}",
+        "$type": "color"
+      },
+      "Press": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Light theme.100}",
+        "$type": "color"
+      },
+      "Inverse strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey.Dark theme.25}",
+        "$type": "color"
+      },
+      "Dark Green": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Dark green.1000}",
+        "$type": "color"
+      },
+      "Dark Yellow": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Dark yellow.1000}",
+        "$type": "color"
+      },
+      "Brand strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Brand.1000}",
+        "$type": "color"
+      },
+      "Brand weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Brand.500}",
+        "$type": "color"
+      }
+    },
+    "Background": {
+      "Inverse strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.900}",
+        "$type": "color"
+      },
+      "Base": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.0}",
+        "$type": "color"
+      },
+      "Suken": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.50}",
+        "$type": "color"
+      },
+      "Inverse weak": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.700}",
+        "$type": "color"
+      },
+      "Inverse": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.800}",
+        "$type": "color"
+      },
+      "Brand": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Brand.1000}",
+        "$type": "color"
+      }
+    }
+  },
+  "_Theme/Mode 1": {
+    "Grey solid": {
+      "0": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.0}",
+        "$type": "color"
+      },
+      "50": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.50}",
+        "$type": "color"
+      },
+      "700": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.700}",
+        "$type": "color"
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.800}",
+        "$type": "color"
+      },
+      "850": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.850}",
+        "$type": "color"
+      },
+      "900": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.900}",
+        "$type": "color"
+      },
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Grey_solid.1000}",
+        "$type": "color"
+      }
+    },
+    "Brand": {
+      "50": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Teal.50}",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Teal.200}",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Teal.500}",
+        "$type": "color"
+      },
+      "800": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Teal.800}",
+        "$type": "color"
+      },
+      "1000": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "{Teal.1000}",
+        "$type": "color"
+      }
+    },
+    "Grey": {
+      "Light theme": {
+        "20": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Dark blue.20}",
+          "$type": "color"
+        },
+        "40": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Dark blue.40}",
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Dark blue.100}",
+          "$type": "color"
+        },
+        "550": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Dark blue.550}",
+          "$type": "color"
+        },
+        "650": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Dark blue.650}",
+          "$type": "color"
+        },
+        "750": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Dark blue.750}",
+          "$type": "color"
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Dark blue.800}",
+          "$type": "color"
+        },
+        "1000": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Dark blue.1000}",
+          "$type": "color"
+        }
+      },
+      "Dark theme": {
+        "25": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Grey Neutral.Light.25}",
+          "$type": "color"
+        },
+        "50": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Grey Neutral.Light.50}",
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Grey Neutral.Light.100}",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Grey Neutral.Light.500}",
+          "$type": "color"
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Grey Neutral.Light.700}",
+          "$type": "color"
+        },
+        "1000": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "{Grey Neutral.Light.1000}",
+          "$type": "color"
+        }
+      }
+    },
+    "Color": {
+      "$extensions": {
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ]
+      },
+      "$value": "#ffffff",
+      "$type": "color"
+    }
+  },
+  "Typography/Web": {
+    "Typeface": {
+      "Family": {
+        "Heading": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Segoe UI",
+          "$type": "text"
+        },
+        "Body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Fira Sans",
+          "$type": "text"
+        }
+      },
+      "Weight": {
+        "Bold": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Bold",
+          "$type": "text"
+        },
+        "Regular": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Regular",
+          "$type": "text"
+        },
+        "SemiBold": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "SemiBold",
+          "$type": "text"
+        },
+        "Medium": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Medium",
+          "$type": "text"
+        }
+      },
+      "Size": {
+        "Heading 1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "61",
+          "$type": "number"
+        },
+        "Heading 2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "49",
+          "$type": "number"
+        },
+        "Heading 3": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "39",
+          "$type": "number"
+        },
+        "Heading 4": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "31",
+          "$type": "number"
+        },
+        "Heading 5": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "25",
+          "$type": "number"
+        },
+        "Body - large": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "20",
+          "$type": "number"
+        },
+        "Body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "16",
+          "$type": "number"
+        },
+        "Body - small": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "14",
+          "$type": "number"
+        }
+      }
+    }
+  },
+  "Typography/Mobile": {
+    "Typeface": {
+      "Family": {
+        "Heading": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "SegoeUI",
+          "$type": "text"
+        },
+        "Body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Fira Sans",
+          "$type": "text"
+        }
+      },
+      "Weight": {
+        "Bold": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Bold",
+          "$type": "text"
+        },
+        "Regular": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Regular",
+          "$type": "text"
+        },
+        "SemiBold": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "SemiBold",
+          "$type": "text"
+        },
+        "Medium": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "Medium",
+          "$type": "text"
+        }
+      },
+      "Size": {
+        "Heading 1": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "48",
+          "$type": "number"
+        },
+        "Heading 2": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "40",
+          "$type": "number"
+        },
+        "Heading 3": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "33",
+          "$type": "number"
+        },
+        "Heading 4": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "28",
+          "$type": "number"
+        },
+        "Heading 5": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "23",
+          "$type": "number"
+        },
+        "Body - large": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "19",
+          "$type": "number"
+        },
+        "Body": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "16",
+          "$type": "number"
+        },
+        "Body - small": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          },
+          "$value": "14",
+          "$type": "number"
+        }
+      }
+    }
+  },
+  "Spacing/Value": {
+    "Corner radius": {
+      "0": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "0",
+        "$type": "number"
+      },
+      "4": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "4",
+        "$type": "number"
+      },
+      "8": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "8",
+        "$type": "number"
+      },
+      "12": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "12",
+        "$type": "number"
+      },
+      "16": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "16",
+        "$type": "number"
+      },
+      "24": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "24",
+        "$type": "number"
+      },
+      "32": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "32",
+        "$type": "number"
+      },
+      "40": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "40",
+        "$type": "number"
+      },
+      "48": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "48",
+        "$type": "number"
+      },
+      "56": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "56",
+        "$type": "number"
+      },
+      "72": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "72",
+        "$type": "number"
+      },
+      "120": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ]
+        },
+        "$value": "120",
+        "$type": "number"
+      }
+    },
+    "Spacing": {
+      "0": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "0",
+        "$type": "number"
+      },
+      "4": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "4",
+        "$type": "number"
+      },
+      "8": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "8",
+        "$type": "number"
+      },
+      "12": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "12",
+        "$type": "number"
+      },
+      "16": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "16",
+        "$type": "number"
+      },
+      "20": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "20",
+        "$type": "number"
+      },
+      "24": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "24",
+        "$type": "number"
+      },
+      "32": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "32",
+        "$type": "number"
+      },
+      "40": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "40",
+        "$type": "number"
+      },
+      "48": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "48",
+        "$type": "number"
+      },
+      "56": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "56",
+        "$type": "number"
+      },
+      "64": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "64",
+        "$type": "number"
+      },
+      "80": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "80",
+        "$type": "number"
+      },
+      "96": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "96",
+        "$type": "number"
+      },
+      "120": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        },
+        "$value": "120",
+        "$type": "number"
+      },
+      "128": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "128",
+        "$type": "number"
+      },
+      "192": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "192",
+        "$type": "number"
+      },
+      "256": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ]
+        },
+        "$value": "256",
+        "$type": "number"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "_Colours primitive/Mode 1",
+      "Colors semantic/Mode 1",
+      "_Theme/Mode 1",
+      "Typography/Web",
+      "Typography/Mobile",
+      "Spacing/Value"
+    ]
+  }
+}
