@@ -1,0 +1,298 @@
+1
+00:00:01,240 --> 00:00:06,120
+Hi, my name is Vincent, and today we're
+going to talk about one of my projects.
+
+2
+00:00:06,120 --> 00:00:11,580
+This is called IT pal. So I by coding this
+project,
+
+3
+00:00:12,680 --> 00:00:18,040
+and right now I want to put it back to
+the, to Figma to make the design
+
+4
+00:00:18,040 --> 00:00:19,740
+tweaks.
+
+5
+00:00:21,940 --> 00:00:28,540
+And then I will build the system for that.
+To do that, I open the Figma
+
+6
+00:00:28,540 --> 00:00:33,460
+file.
+
+7
+00:00:41,660 --> 00:00:43,760
+I open the plugin, it's called
+
+8
+00:00:44,900 --> 00:00:51,810
+HTML to Design. So you can import
+
+9
+00:00:51,810 --> 00:00:56,850
+the URL on a screenshot, and then the
+plugin will
+
+10
+00:00:57,900 --> 00:01:00,830
+convert it to the design Figma file.
+
+11
+00:01:02,820 --> 00:01:07,460
+So as you can see, we have the design file
+here. I used this plugin to do
+
+12
+00:01:07,460 --> 00:01:15,479
+that.
+
+13
+00:01:21,280 --> 00:01:21,560
+Then
+
+14
+00:01:22,580 --> 00:01:26,300
+I need design tokens. First of all,
+
+15
+00:01:27,060 --> 00:01:34,040
+I need a rule, so I, I, I search on
+internet. So someone
+
+16
+00:01:34,040 --> 00:01:40,480
+already find the, the system rule. So
+primitive token, semantic token,
+
+17
+00:01:40,480 --> 00:01:47,380
+responsive token. So res-- semantic token
+and responsive token, those
+
+18
+00:01:47,380 --> 00:01:48,280
+I will
+
+19
+00:01:48,700 --> 00:01:49,400
+inherit
+
+20
+00:01:50,120 --> 00:01:54,660
+it from the primitive tokens.
+
+21
+00:01:57,100 --> 00:01:58,1000
+So I will use
+
+22
+00:02:00,340 --> 00:02:05,770
+the LLM agents. So then you can see that
+by an image, please create a JSON file for
+
+23
+00:02:05,770 --> 00:02:06,600
+this token,
+
+24
+00:02:07,340 --> 00:02:08,350
+and then I have
+
+25
+00:02:09,300 --> 00:02:12,920
+the, the JSON file.
+
+26
+00:02:14,600 --> 00:02:21,520
+Back to the Figma, I use the plugin, it's
+called Tok- Token
+
+27
+00:02:21,520 --> 00:02:24,940
+Studio for Figma.
+
+28
+00:02:28,720 --> 00:02:32,040
+I load, I load up the JSON file
+
+29
+00:02:32,720 --> 00:02:34,240
+I me-- I just mentioned,
+
+30
+00:02:35,760 --> 00:02:39,540
+and then let's see what, what we got.
+
+31
+00:02:40,720 --> 00:02:42,600
+And then I click Export Style
+
+32
+00:02:43,240 --> 00:02:47,340
+and Variable to Figma.
+
+33
+00:02:48,080 --> 00:02:52,240
+And voilà, this is what we have. We have
+primitive
+
+34
+00:02:53,260 --> 00:02:59,180
+token, semantic dark, responsive desktop,
+responsive mobile.
+
+35
+00:03:01,300 --> 00:03:05,100
+And semantic dark and responsive desktop
+will,
+
+36
+00:03:06,300 --> 00:03:08,859
+will be inherited from primitive
+
+37
+00:03:08,860 --> 00:03:17,280
+token.
+
+38
+00:03:28,140 --> 00:03:30,980
+Next, I want to
+
+39
+00:03:32,740 --> 00:03:38,620
+change the design after I make the tweaks.
+
+40
+00:03:38,680 --> 00:03:40,540
+For example, for the product page,
+
+41
+00:03:41,360 --> 00:03:43,580
+I always make the change here,
+
+42
+00:03:44,640 --> 00:03:48,100
+and in the new designs, I change the batch
+
+43
+00:03:48,960 --> 00:03:51,660
+considerations.
+
+44
+00:03:52,740 --> 00:03:54,220
+And you can see it right now
+
+45
+00:03:55,940 --> 00:04:01,380
+in the light side, it's still considered a
+different color.
+
+46
+00:04:02,360 --> 00:04:09,180
+And, and right click, I copy the link on
+the Figma. I
+
+47
+00:04:09,180 --> 00:04:09,760
+paste it
+
+48
+00:04:11,140 --> 00:04:13,680
+to the agent and then, "Hey,
+
+49
+00:04:14,300 --> 00:04:17,160
+can you implement, implement the
+
+50
+00:04:18,940 --> 00:04:19,980
+new design
+
+51
+00:04:23,700 --> 00:04:27,180
+of the product page? Follow
+
+52
+00:04:31,900 --> 00:04:35,320
+the rules I
+
+53
+00:04:35,320 --> 00:04:46,010
+define."
+
+54
+00:04:46,010 --> 00:04:47,420
+And then you can see that
+
+55
+00:04:49,100 --> 00:04:55,580
+the LLM, the agents will connect to the
+Figma MCP server. So you, you need to
+
+56
+00:04:55,580 --> 00:05:02,580
+open that bridge.
+
+57
+00:05:15,180 --> 00:05:15,990
+This is the s--
+
+58
+00:05:16,860 --> 00:05:18,080
+uh, this is the rules
+
+59
+00:05:19,020 --> 00:05:22,300
+when I, when I... This is the rule files,
+
+60
+00:05:23,240 --> 00:05:25,580
+and I just, I just told
+
+61
+00:05:26,680 --> 00:05:30,360
+the LLM that just follow the spec from the
+
+62
+00:05:32,020 --> 00:05:34,600
+general markdown file.
+
+63
+00:05:36,820 --> 00:05:40,400
+Okay, and after a while, so this is a new
+
+64
+00:05:41,720 --> 00:05:44,820
+page of a rover page. You can see that
+
+65
+00:05:45,500 --> 00:05:46,360
+it totally
+
+66
+00:05:47,500 --> 00:05:53,680
+different from the old versions, so and
+especially for the considering patch, it
+
+67
+00:05:53,680 --> 00:05:54,080
+totally
+
+68
+00:05:54,720 --> 00:05:58,080
+have a new color.
+
+69
+00:06:01,460 --> 00:06:08,320
+Here, here it is, the new design is in
+the Figma.
+
+70
+00:06:14,420 --> 00:06:19,039
+Okay, thank for listening.
