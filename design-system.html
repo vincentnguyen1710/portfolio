@@ -45,7 +45,7 @@
       <!-- Main body-->
       <header class="d-flex hero-section">
         <div class="row">
-          <div class="col-lg-7 col-sm-12 align-self-center p-32 ps-xl-180 ps-md-80 py-40 py-md-0">
+          <div class="col-lg-6 col-sm-12 align-self-center p-32 ps-xl-180 ps-md-80 py-40 py-md-0">
             <h1 class="text-strong">Design system</h1>
             <h5 class="text-weak mt-24 fw-normal">
               This is for my portfolio, the site you're currently viewing, which includes: the design Figma file and an
@@ -53,15 +53,15 @@
               guideline.
             </h5>
           </div>
-          <div class="col-lg-5 col-sm-12">
-            <img src="img/designsystem-hero.webp" alt="" />
+          <div class="col-lg-6 col-sm-12">
+            <img src="img/designsystem-hero.webp" alt="Design system hero image" />
           </div>
         </div>
       </header>
 
-      <div class="container px-120 py-40">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
+      <article class="container px-120 py-80">
+        <nav aria-label="breadcrumb" class="mt-40 mt-lg-80 mb-40 px-16 py-12 rounded-2 bg-blue-50">
+          <ol class="breadcrumb mb-0">
             <li class="breadcrumb-item">
               <a href="index.html">Home</a>
             </li>
@@ -73,12 +73,9 @@
             </li>
           </ol>
         </nav>
-      </div>
-
-      <article class="container px-120 py-80">
         <div class="row">
           <div class="col-lg-6 col-sm-12">
-            <h3>Our Objectives</h3>
+            <h3>Objectives</h3>
 
             <ul class="mt-16">
               <li>
@@ -100,7 +97,6 @@
               <li>My personal project, completed in 2024</li>
               <li>Designed with Figma</li>
               <li>Front-end developed using Bootstrap 5</li>
-              <li>Year: 2024</li>
             </ul>
           </div>
         </div>
@@ -213,10 +209,10 @@
                 <h4 class="mt-48 fw-bold text-center">Colors primitive</h4>
                 <figure class="mt-24">
                   <img src="img/color-primitive.svg" alt="Precede color: blue, green, purple, ..." />
+                  <figcaption>
+                    Precede color: blue, green, purple, ...
+                  </figcaption>
                 </figure>
-                <figcaption>
-                  Precede color: blue, green, purple, ...
-                </figcaption>
               </div>
 
               <div class="col-md-4 col-sm-12">
@@ -288,11 +284,10 @@
             </div>
             <div class="col-md-8 col-sm-12 mx-auto mt-48">
               <figure>
-                <img src="img/spacing (1).webp" alt="" />
+                <img src="img/spacing (1).webp" alt="Spacing scale used in the design system" />
               </figure>
               <figcaption>
-                A Figma plugin assist me to check the contrast of text against
-                background
+                Spacing scale used across components and layouts
               </figcaption>
             </div>
           </div>
@@ -348,7 +343,7 @@
                   body text.
                 </li>
                 <li>
-                  There are two typographic sGcales: one for mobile, which is
+                  There are two typographic scales: one for mobile, which is
                   smaller and uses less space, and another for desktop.
                 </li>
               </ul>
@@ -379,13 +374,12 @@
                 the inner frame because larger objects require a smaller
                 radius to achieve a curved appearance.
               </p>
-              <div class="row mt-48"></div>
-              <figure>
+              <figure class="mt-48">
                 <img src="img/border-explain.svg" alt="" />
               </figure>
               <figcaption>
                 The border radius of the outer frame is smaller than that of
-                the inner frame because larger objects require a larger radius
+                the inner frame because larger objects require a smaller radius
                 to achieve a curved appearance
               </figcaption>
             </div>
@@ -396,7 +390,7 @@
       <!--development part-->
       <section class="mt-80">
         <div class="container">
-          <h1 class="text-center">Development</h1>
+          <h2 class="text-center">Development</h2>
           <p class="mt-24 text-center">
             I built the site using the Bootstrap 5 framework (HTML/CSS/JS).
             For animations, I used Swup.js
@@ -404,7 +398,7 @@
           <article class="mt-md-80 mt-40">
             <div class="row">
               <div class="col-md-6 col-sm-12 m-auto">
-                <h4 class="fw-bold">Change default font size</h4>
+                <h3 class="fw-bold">Change default font size</h3>
                 <p class="mt-16">
                   Typically, 1rem equals 16px, but I’ve reset it to 1rem =
                   10px for easier reference
@@ -426,7 +420,7 @@
           <article class="mt-md-80 mt-40">
             <div class="row">
               <div class="col-md-6 mx-auto">
-                <h4 class="fw-bold">Re-set the font base</h4>
+                <h3 class="fw-bold">Re-set the font base</h3>
                 <p class="mt-16">
                   I set the default font size to 18px and the default
                   gutter/margin to 32px, as per the design. By default,
@@ -446,7 +440,7 @@
 
           <!--Create a custom of spacing-->
           <article class="mt-md-80 mt-40">
-            <h4 class="fw-bold">Create a custom of spacing</h4>
+            <h3 class="fw-bold">Create a custom of spacing</h3>
             <div class="row">
               <div class="col-md-6 col-sm-12">
                 <p class="mt-16">
@@ -507,8 +501,9 @@ margin-top: 0.2rem !important;
             <div class="col-md-6 mx-auto">
               <h2 class="text-center">Animation</h2>
               <p class="mt-24 text-center">
-                I used the Swup JavaScript framework (https://swup.js.org/) to
-                help my site transition smoothly between pages
+                I used <a href="https://swup.js.org/" target="_blank" rel="noopener noreferrer">Swup.js</a> to handle
+                smooth page transitions. It intercepts link clicks, fetches the next page via AJAX, and swaps the
+                content — giving the site an app-like feel without a JavaScript framework.
               </p>
             </div>
           </div>
