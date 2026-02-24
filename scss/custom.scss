@@ -212,6 +212,7 @@ h6 {
   text-decoration: none;
   color: var(--text-weak);
   font-size: 1.8rem;
+  border-bottom: 4px solid transparent;
 }
 
 .navbar-nav .nav-item a:hover {
@@ -351,7 +352,7 @@ footer li {
 // Landing page hero section - ensure proper spacing with absolute positioned image
 .grand-text {
   position: relative;
-  padding-bottom: 32rem;
+  padding-bottom: 30rem;
 
   // @media (min-width: 768px) {
   //   padding-top: 10rem;
